@@ -44,3 +44,57 @@ twoFer("sai");
 function isLeapyear(year:number):boolean{
    return(year % 4 === 0 && year % 100 !==0 ) || (year % 400 === 0 ) 
 }
+
+
+function addTwo (num:number) : number{
+    return num+2
+    // return "hello"
+}
+
+function getUpper(val:string){
+    return val.toLowerCase()
+}
+
+function signUp(name:string,email:string,isPaid:boolean){
+
+}
+
+let loginUser = (name:string,email:string,isPaid:boolean=true) =>{
+
+} 
+
+addTwo(2)
+getUpper("sai")
+signUp("saikumar","saikumar@gmail.com",false)
+loginUser("abu","abu@gmail.com")
+
+//union type
+// function getValue (myVal: number): boolean{
+//     if (myVal > 4) {
+//         return true
+//     }
+//     return "200 ok"
+// }
+
+const getHello = (s:string) : string =>{
+return ""
+}
+
+const heros = ["thor","superhero","ironman"]
+
+heros.map((hero):string=>{
+    return `hero is ${hero}`
+    // return 1
+})
+
+function consoleError(errorMsg:string):void{
+    // return "error"
+    console.log(errorMsg);
+    
+}
+
+function fail(msg: string): never {
+    throw new Error(msg);
+  }
+
+  

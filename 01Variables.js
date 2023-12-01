@@ -1,6 +1,7 @@
-"use strict";
-let movieName = 'Bang Bang';
+var movieName = 'Bang Bang';
 movieName = 'Bang Bang2';
 movieName.toLowerCase();
-let moviePrice = 100;
+var moviePrice = 100;
 moviePrice = 200;
+var greetings = "hello world";
+console.log(greetings);
